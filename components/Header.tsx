@@ -14,9 +14,9 @@ function Header() {
       </label>
       <ul tabIndex={0} className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52">
         <li><a>Home</a></li>
-        <li><a>Courses</a></li>
-        <li><a>Practice</a></li>
-        <li><a>Deploy</a></li>
+        <li><a href="#why">Why web dev</a></li>
+        <li><a  href='#us'>Why Us?</a></li>
+        <li><a href='#code'>Code</a></li>
       </ul>
     </div>
     <a className="btn btn-ghost normal-case text-3xl logo font-bold ">HACKED</a>
@@ -24,13 +24,13 @@ function Header() {
   <div className="navbar-center hidden lg:flex">
     <ul className="menu menu-horizontal px-1">
       <li><a>Home</a></li> 
-      <li><a>Courses</a></li>
-      <li><a>Practice</a></li>
-      <li><a>Deploy</a></li>
+      <li><a href="#why">Why web dev</a></li>
+        <li><a href='#us'>Why Us?</a></li>
+      <li><a href='#code'>Code</a></li>
     </ul>
   </div>
   <div className="navbar-end">
-    <a className="btn btn-primary">Login</a>
+    <a href='https://code.ionicbyte.com/' target={"_blank"} className="btn btn-primary">Get started</a>
   </div>
 </div>
     </div>

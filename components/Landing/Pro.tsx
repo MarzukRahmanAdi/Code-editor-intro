@@ -2,8 +2,8 @@ import React from 'react'
 
 function Pro() {
   return (
-    <>
-      <h1 style={{lineHeight:"1.1"}} className='text-4xl text-center   my-10  font-semibold text-white'>Get started </h1>
+    <section id='us'>
+      <h1 style={{lineHeight:"1.1"}} className='text-4xl text-center   my-10  font-semibold text-white'>Before using our product the procedure </h1>
 
     <div className='text-center flex justify-center w-screen'>
         <div className="text-2xl text-center breadcrumbs">
@@ -23,7 +23,7 @@ function Pro() {
         </ul>
     </div>
 </div>
-    </>
+    </section>
 
   )
 }

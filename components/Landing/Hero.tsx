@@ -6,8 +6,8 @@ function Hero() {
       <div className="hero my-10 xl:my-0 xl:h-120 ">
         <div className="hero-content text-center lg:text-left flex-col   lg:flex-row-reverse">
           <img
-            src="https://i.ibb.co/jrLss7X/Code-typing-bro-1.png"
-            className="max-w-sm w-full rounded-lg "
+            src="/images/coding.png"
+            className="max-w-sm  w-full rounded-lg floating "
           />
           <div className="hero-text">
             <h1 className=" text-3xl xl:mr-32  lg:text-5xl  font-bold">
@@ -18,7 +18,7 @@ function Hero() {
               No save button, it will show your result automatically
 
             </p>
-            <button className="btn btn-primary">Get Started</button>
+            <a href='https://code.ionicbyte.com/' target={"_blank"}  ><button className="btn btn-primary">Get Started</button></a> 
           </div>
         </div>
       </div>
